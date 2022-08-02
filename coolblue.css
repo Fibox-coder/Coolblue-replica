@@ -1,0 +1,1149 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+body{
+  margin: 0;
+  font-family: "Open Sans", Arial, Helvetica;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  margin-top: 150px;
+}
+
+
+/* NAV BEGINS */
+
+.nav-bar{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index: 100;
+}
+
+/* DARK BLUE BAR BEGINS */
+
+.dark-blue-bar{
+  height: 52px;
+  background-color: rgb(0, 144, 227);
+}
+
+.nav-tools{
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-top: 0;
+  width: 100%;
+  max-width: 1300px;
+}
+
+.leftsection{
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  position: relative;
+  margin-left: 25px;
+  margin-right: 25px;
+  height: 52px;
+  overflow: hidden;
+}
+
+.logo-orange{
+  width: 82.5px;
+  height: 82.5px;
+  background-color: rgb(255, 102, 0);
+  border-radius: 50%;
+  margin-top: -15px;
+}
+
+.text-in-logo{
+  position: absolute;
+  top: 19px;
+  bottom: 0;
+  left: 16px;
+  right: 0;
+  width: 82.5px;
+  font-size: 23px;
+  color: white;
+  line-height:20px;
+  font-weight: bold;
+  margin-top: -15px;
+}
+
+.link-to-assortiment{
+  cursor: pointer;
+  color: white;
+  width: 122px;
+  margin: 0;
+  line-height: 14px;
+  font-size: 15px;
+  padding: 0;
+}
+
+.assortiment{
+  font-weight: bold;
+}
+.arrow{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.middle-section{
+  flex: 1;
+  margin-right: 35px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.searchbar{
+  flex: 1;
+  height: 42px;
+  padding-left: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 0;
+  width: 260px;
+}
+
+.loop{
+  position: absolute;
+  right: 0px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.right-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.language{
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 7px 5px;
+}
+
+.text-name{
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 3px;
+}
+
+.name{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 100px;
+}
+
+.basket{
+  margin-left:5px;
+  margin-right: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.language:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.name:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.heart-icon:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.basket:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+
+
+
+/* DARK BLUE BAR ENDS */
+/* LIGHT BLUE BAR BEGINS */
+
+.light-blue-bar{
+  margin: 0;
+  height: 72px;
+  background-color: rgb(242, 247, 252);
+}
+
+.nav-tools-lightblue{
+  padding: 0;
+  height: 72px;
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.list-container{
+  height: 72px;
+  background-color: rgb(242, 247, 252);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px 0 20px;
+}
+
+.nav-bar-fixed-items{
+  list-style: none;
+  width: 100%;
+  color: rgb(0, 144, 227);
+  text-align: center;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19.5px;
+  padding: 0 2px;
+  cursor: pointer;
+}
+
+.flex-energie{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.energie-icon{
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
+
+
+/* LIGHT BLUE BAR ENDS */
+/* NAV END*/
+
+/* Main starts */
+
+main{
+  margin-left: 20px;
+  margin-top: 20px;
+  max-width: 1300px;
+  padding-left: 15px;
+  padding-right: 10px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+header{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-block{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header-list{
+  list-style: none;
+  margin-right: 20px;
+}
+
+.green-checkmark{
+  width: 16px;
+  height: 16px;
+  opacity: 0.7;
+}
+
+.Orange-text{
+  color: rgb(255, 102, 0);
+  font-weight: 700;
+}
+
+.site-links-text{
+  text-decoration: none;
+  color: rgb(0, 144, 227);
+  font-weight: 700;
+  cursor: pointer;
+  padding-right: 20px;
+}
+.site-links-text:hover{
+  text-decoration: underline;
+}
+
+/* GRID IMAGES STARTS HERE */
+
+.images-with-border img{
+  border: 1px solid rgb(194, 194, 194);
+  border-radius: 5px;
+}
+
+.grid-box-two-big-images{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 20px 20px 15px 0px;
+}
+
+  .images{
+  width: 100%;
+  }
+
+
+.grid-box-three-medium-images{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+  margin: 0 20px 15px 0px;
+}
+
+.header-block.below-grid{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-block.below-grid .header-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+.blue-icon{
+  margin-right: 2px;
+}
+
+/* categorieën BEGINS */
+
+.container-small-images{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 200px;
+  max-height: 180px;
+  border: 1px solid rgb(194, 194, 194);
+  border-radius: 5px;
+  height: 100%;
+  
+}
+
+.small-image, .medium-image{
+  background-color: rgb(242, 247, 252);
+  width: 100%;
+}
+
+.text-for-small-image{
+  padding: 15px 0 35px 0;
+  text-align: center;
+}
+
+.grid-container-small-images{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin-bottom: 30px;
+  gap: 15px;
+}
+
+/*  ONTDEK DE VERSCHILLENDE MERKEN */
+
+.container-medium-images{
+  display: flex;
+  flex-direction: column;
+  max-width: 415px;
+  max-height: 400px;
+  border: 1px solid rgb(194, 194, 194);
+  border-radius: 5px;
+  height: 100%;
+}
+
+.text-for-medium-image, .text{
+  margin: 10px 0 0 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.grid-container-small-images a, .text-for-medium-image{
+  color: rgb(0, 144, 227);
+  font-weight: bold;
+}
+
+.text{
+  color: black;
+}
+
+ul{
+  list-style-type: none;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  color: black;
+}
+
+.samsung-list{
+  display: grid;
+  grid-template-columns: 1fr  1fr;
+  gap: 10px;
+  color: rgb(0, 144, 227);
+}
+.samsung-text{
+  margin-left: 10px;
+}
+
+.list-medium-images{
+  display: flex;
+  flex-direction: row;
+  color: rgb(0, 144, 227);
+}
+
+.grey-bar-between-text{
+  border-right: 1px solid rgb(194, 194, 194);
+  padding-right: 12px;
+  margin-right: 12px;
+}
+
+
+.list-medium-images li:hover, .link-to-all:hover{
+  text-decoration: underline;
+}
+
+.spacing{
+  margin: 0 6px 0 6px;
+  color: grey;
+  opacity: 0.5;
+}
+
+.link-to-all{
+  color: rgb(0, 144, 227);
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.call-to-action{
+  display: flex;
+  }
+
+  .blue-arrow-right{
+    height: 25px;
+    width: 20px;
+    margin: -2.5px 0 0 -5px;
+  }
+
+/*  EERDER BEKEKEN */
+
+.flex-container-eerder-bekeken{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin-bottom: 20px;
+  
+}
+
+.small-image-text-container{
+  max-width: 203px;
+  height: 260px;
+  margin-top: 30px;
+}
+
+.product-image{
+  height: 100px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.review-container, .bezorg-tijd{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  color: rgb(0, 144, 227);
+}
+
+
+.product-name{
+  color: rgb(0, 144, 227);
+  font-weight: bold;
+  font-size: 14px;
+  margin: 25px 0 15px 0;
+  height: 37.5px;
+}
+.product-name:hover, .review-container:hover{
+  text-decoration: underline;
+}
+
+.price-of-product{
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.green-text{
+  color: rgb(0, 133, 0);
+  font-weight: 700;
+}
+
+
+.coolblue-label{
+  position: relative;
+}
+
+.label-keuze{
+  position: absolute;
+  top: 15px;
+  left: -5px;
+  width: 73px;
+  height: 40px;
+}
+
+
+/*  OPHALEN IN DE WINKEL / LAADPALEN */
+
+.container-2-long-width-images{
+margin-top: 20px;
+display: flex;
+gap: 15px;
+width: 100%;
+}
+
+.long-images{
+  max-width: 630px;
+  max-height: 150px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/*  SAMSUNG 7-DAAGSE */
+
+.total-samsung-container{
+  position: relative;
+  height: 455px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.samsung-banner{
+  width: 100%;
+  max-width: 1280px;
+  height: 455px;
+  border-radius: 5px;
+}
+
+.three-image-container{
+  display: flex;
+  gap: 15px;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
+.one-samsung-container{
+  height: 405px;
+  width: 225px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.one-samsung-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 15px;
+}
+
+.samsung-padding{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.coolblue-label-samsung{
+  position: relative;
+  width: 190px;
+  text-align: center;
+}
+
+.image-size{
+  height: 100px;
+}
+
+
+.label-keuze-samsung{
+  position: absolute;
+  top: 15px;
+  left: 5px;
+  width: 73px;
+  height: 40px;
+}
+
+
+
+.samsung-deal{
+  position: absolute;
+  background-color: rgb(254, 241, 232);
+  color: rgb(255, 102, 0);
+  font-weight: 700;
+  padding: 2px 3px 2px 3px;
+  width: 89px;
+  bottom: -17px;
+  left: -5px;
+  font-size: 12px;
+}
+
+.advies-prijs{
+  font-size: 1.1rem;
+}
+
+.crossed-out{
+  list-style-position: inside;
+  color: grey;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.grey-text{
+  color: grey;
+  font-weight: 400;
+  font-size:0.9rem;
+}
+
+.container-vink-and-text{
+  display: flex;
+}
+
+.samsung-text{
+  width: 80%;
+}
+
+.samsung-mark{
+
+margin-top: 15px;
+}
+
+/* Inspiratie nodig == Blader door onze categorieen... */
+/* Best verkocht */
+
+.advies-grey{
+  font-size: 13px;
+}
+
+.total-price-small{
+  font-size: 16px;
+}
+.crossed-out-small-price{
+  font-weight: 600;
+}
+
+/* Footer */
+/* section 1 */
+
+.section-1{
+  width: 100%;
+  border-top: 1px solid rgb(189, 189, 189);
+}
+
+.max-width{
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-top: 0;
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 10px 0 15px;
+  }
+
+.smiley-container{
+  position: relative;
+}
+
+.alles-voor-een-glimlach-text{
+
+font-size: 20px;
+font-weight: 700;
+}
+
+.smiley-image-small{
+  position: absolute;
+  top: 0px;
+  right: -16px;
+  width: 15px;
+}
+
+.section-hidden-media-query{
+  display: none;
+}
+
+/* Section-2 */
+
+.section-2{
+  width: 100%;
+  background-color: rgb(0, 144, 227);
+  border-bottom: 1px solid rgb(108, 173, 201);
+}
+
+.flex-container-section-2{
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  max-width: 1350px;
+  margin: auto;
+  padding-top: 32px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.customer-service-image{
+  margin-top: 50px;
+  width: 147px;
+}
+
+
+h3{
+  color: white;
+  font-size: 16px;
+  margin: 0;
+}
+
+.section-2 p{
+  color: white;
+  font-weight: 400;
+  margin: 5px 0 20px 0;
+}
+
+.single-social-media-container, .section-2 a{
+  display: flex;
+  width: 160px;
+}
+
+.image-icon-footer{
+  width: 50px;
+  height: 50px;
+}
+
+
+.section-2 h4{
+  color: white;
+  font-size: 13px;
+  margin: 10px 0 5px 0;
+  font-weight: 700;
+}
+
+.grid-socials{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.section-2 h5{
+  margin: 0;
+  color: white;
+  font-weight: 300;
+  font-size: 13px;
+  width: 120px;
+}
+
+.nieuwsbrief{
+  display: flex;
+  flex-direction: column;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+.e-mail{
+  color: white;
+  margin: 20px 0 6px 0;
+}
+
+
+.e-mail-input{
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0;
+  margin-bottom: 8px;
+  padding: 0 30px 0 5px;
+  font-size: 15px;
+}
+
+.e-mail-input:focus{
+  outline: none;
+}
+
+.submit{
+  background-color: rgb(40, 93, 171);
+  padding: 16px;
+  width: 120px;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px 0px black;
+  cursor: pointer;
+  }
+
+  .e-mail-button:hover{
+    background-color: rgb(36, 70, 122);
+  }
+
+/* section-3 */
+
+.section-3{
+  width: 100%;
+  background-color: rgb(0, 144, 227);
+  height: 500px;
+}
+
+.flex-container-section-3{
+  display: flex;
+  justify-content: space-between;
+  height: 450px;
+  max-width: 1350px;
+  margin: auto;
+  padding-top: 32px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section-3 ul{
+  color: white;
+  padding: 0;
+} 
+
+.section-3 li{
+  line-height: 25px;
+  color: white;
+}
+
+.section-3 p{
+  color: white;
+} 
+
+.section-3 a:hover{
+  text-decoration: underline;
+  color: white;
+}
+
+.arrow-and-text-container{
+  display: flex;
+  align-items: center;
+}
+
+.arrow-and-text{
+  height: 20px;
+  width: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.list-for-footer a{
+  color: inherit;
+}
+
+/* section-4 */
+
+.section-4{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgb(194, 194, 194);
+}
+.footer-icon{
+  height: 40px;
+  margin: 0 6px 0 12px;
+}
+
+.container-for-footer-icons{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-4 a{
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Section-5 */
+.section-5{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 25px 0 0 0;
+  font-weight: 400;
+}
+
+.list-container-section-5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.list-section-5{
+  border-right: 1px solid rgb(194, 194, 194);
+  padding-right: 12px;
+  margin-right: 12px;
+}
+
+.section-5 a, .last-container a{
+  color: rgb(0, 144, 227);
+}
+.section-5 a:hover, .last-container a:hover{
+text-decoration: underline;
+}
+
+.middle-text-section-5{
+  margin: 12px 0 20px 0;
+}
+
+
+.last-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.beoordeel-image{
+  height: 20px;
+}
+
+.media-queries{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+/*  @MEDIA BEGINS */
+
+@media (max-width: 1170px){
+  .beste-website{
+    display:none; 
+  }
+
+/* = Samsung 7-daagse */
+  .productfour{
+    display: none;
+  }
+
+  .samsung-banner{
+    width: 120%;
+  }  
+
+  .white-bar-on-the-right{
+    background-color: white;
+    height: 455px;
+    width: 15px;
+    position: absolute;
+    top: 0px;
+    right: -10px;
+  }
+
+  .grid-container-small-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 30px;
+    gap: 15px;
+  }
+
+  .container-small-images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+    max-height: 360px;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 5px;
+    height: 100%; 
+    }
+
+  .hide-when-small{
+    display: none;
+  }
+}
+
+@media (max-width: 1020px){
+body{
+  margin-top: 0px;
+}
+
+.image-three, .fifth-image, .smiley-container, .zakkelijk-winkels{
+  display: none;
+}
+
+  .nav-bar{
+   position: relative;
+   margin-top: 0;
+  }
+
+  .light-blue-bar{
+    position: relative;
+    margin-top: 52px;
+    z-index: 0;
+    margin-bottom: 10px;
+  }
+
+  .dark-blue-bar{
+    position: fixed;
+    z-index: 100;
+
+    
+  }
+
+
+  .flex-container-eerder-bekeken{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .grid-box-three-medium-images{
+    grid-template-columns: 1fr 1fr;
+    
+  }
+
+  .max-width{
+    justify-content: center;
+  }
+}
+
+
+@media (max-width: 800px){
+.logo-orange, .text-in-logo, .link-to-assortiment, .language, .arrow-bottom, .text-name, .aircos, .header-block.below-grid, .light-blue-bar, .header-block, .beste-webwinkel{
+    display: none;
+  }
+
+  .section-1, .section-3, .grid-socials, .nieuwsbrief{
+    display: none;
+  }
+  
+  main{
+    padding: 10px;
+  }
+
+  .burger-icon{
+    margin: 11px 0 0 0;
+    height: 34px;
+    
+  }
+
+  .middle-section{
+    margin-right: 20px;
+  }
+  .name{
+    padding: 0 4px 0 0;
+  }
+ 
+  .grid-box-two-big-images{
+    grid-template-columns: 1fr;
+  }
+
+  .flex-container-section-2{
+    justify-content:left;
+    padding-top: 0;
+    height: 270px;
+    margin-top: 0px;
+  }
+
+  .links-to-socials{
+    padding-top: 50px;
+    margin-left: 30px;
+  }
+
+/* Samsung media */
+  .productthree{
+    display: none;
+  }
+
+  .samsung-banner{
+    width: 200%;
+  }  
+
+
+  .one-samsung-container{
+    width: 200px;
+  }
+
+  /* Hidden section replaces section 1 when with < 800px */
+
+  .section-hidden-media-query{
+    display: block;
+    background-color: rgb(0, 144, 227);
+    width: auto;
+    padding: 5px 10px 0 10px ;
+  }
+
+   .section-hidden-media-query ul{
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .section-hidden-media-query li{
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    height: 30px;
+    margin: 5px 0 0 0;
+  }
+
+  .section-hidden-media-query li:hover{
+    text-decoration: underline;
+  }
+
+  .flex-container-hidden{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(108, 157, 214);
+  }
+
+  .flex-container-hidden a{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: inherit;
+  }
+
+  .flex-container-hidden img{
+    height: 22px;
+  }
+
+
+  .footer-icon{
+    margin: 5px;
+  }
+}
+
